@@ -1,0 +1,37 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# User-directed exclusion: dataset files and derived data
+/data/
+/dataset/
+/datasets/
+
+# User-directed exclusion: paper/manuscript files
+/paper/
+/papers/
+/manuscript/
+/manuscripts/
+/reports/publication/
+*paper*.*
+*manuscript*.*
+
+# OS/editor/temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
