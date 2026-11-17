@@ -8,7 +8,7 @@ Record actual evidence and approvals. An open row is not a decision and does not
 - **Status:** OPEN — actual course-channel status is not confirmed.
 - **Owner:** M1 (Al-Javin Nishu), with all members confirming their records.
 - **Evidence checked:** Local workspace and current GitHub repository contain no submission receipt or course-tracker link. The course portal/team tracker has not been checked here.
-- **Current artifact:** `docs/scope.md` is a draft prepared for confirmation; it is not proof of submission or approval.
+- **Current artifacts:** `docs/scope_report.pdf` is the submission-format report; `docs/scope_report.md` is its editable source. Neither is proof of submission or approval.
 - **Next action:** M1 checks the actual course channel/team tracker and asks the instructor for any missing deadline/evidence instructions. Record the real status and timestamp; do not backdate.
 - **Due:** Immediately (the official milestone date is 17 Nov 2026; exact time is not stated in the planning documents).
 - **Blocks:** Marking STEP-001/G01 complete and any claim that the scope milestone was submitted or approved.

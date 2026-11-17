@@ -1,6 +1,7 @@
 # CSE431 Topic and Problem Scope — Draft
 
 **Status:** Draft prepared on 17 November 2026; team/instructor approval and course-submission status are not verified. This file is not a submission receipt.\
+**Submission copy:** [Scope report PDF](./scope_report.pdf) and [editable report source](./scope_report.md).\
 **Course:** CSE431 Machine Learning, Fall 2026\
 **Team:** Group 05; five members are listed in Section 11 of the [Research Operating System](../BREASTWISE_RESEARCH_OPERATING_SYSTEM.md).\
 **Industry domain:** Healthcare / Medical Data Analytics, as stated in the team plan.

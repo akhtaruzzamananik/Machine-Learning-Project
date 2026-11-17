@@ -1,4 +1,6 @@
 # Keep text artifacts stable across Windows and Unix Git clients.
 *.md text eol=lf
 *.csv text eol=lf
+*.py text eol=lf
+*.pdf binary
 .gitignore text eol=lf

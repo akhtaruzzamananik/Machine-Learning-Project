@@ -78,7 +78,7 @@ Classify each statement as COURSE REQUIREMENT, PLANNING RECOMMENDATION or OPEN D
 **Prerequisites:** OS source facts/decision ledger (RF01–RF18, D01–D14), current tracker or instructor message. The supplied PDFs were read and later removed at the user's request; request an authorized copy only if a source-dependent ambiguity cannot be resolved from the recorded summary.\
 **Effort/parallel work:** 30–60 minutes; no parallel status editing. M1 asks each member for current evidence independently.\
 **Inputs:** title/scope requirement, actual submitted file/link, deadline instructions, team roster.\
-**Outputs and canonical records:** `docs/milestone_evidence.csv` row for scope; `docs/decisions.md` entry for any uncertainty; timestamped submitted scope copy or explicit missing-status note.\
+**Outputs and canonical records:** one-page `docs/scope_report.pdf` and editable `docs/scope_report.md`; `docs/milestone_evidence.csv` row for scope; `docs/decisions.md` entry for any uncertainty; timestamped submission receipt/link or explicit unconfirmed/not-submitted status.\
 **Procedure:** (1) Search the tracker/email/team channel for actual submission evidence and permission state. (2) Ask all members whether any item was submitted. (3) If missing, assemble a concise minimum package from the official scope, submit only through the authorized route, and ask instructor how to handle lateness. (4) Record the real submission time, receipt and next action.\
 **Planning prompt:** “Compare current scope evidence with the exact course requirement; list omissions and deadline uncertainties without claiming completion.”\
 **Implementation prompt:** “Prepare only the missing truthful scope artifact; preserve an unedited copy of anything already submitted.”\

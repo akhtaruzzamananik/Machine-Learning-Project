@@ -13,7 +13,7 @@ The prediction target is the benign/malignant label for a dataset record. This p
 
 ## Current status
 
-This repository is being initialized from the project plans. At this point, no model-training results, fitted model, or working application are claimed as complete. Work should begin at STEP-001 in the execution blueprint, with actual progress and evidence recorded as each step is completed.
+The STEP-001 scope report is prepared in `docs/scope_report.pdf` with an editable Markdown source. Its course submission and approval status remain unconfirmed. No model-training results, fitted model, or working application are claimed as complete. Record actual progress and evidence as each step is completed.
 
 ## Planned course work
 
