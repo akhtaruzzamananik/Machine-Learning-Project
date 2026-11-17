@@ -27,7 +27,7 @@ The STEP-001 scope report is prepared in `docs/scope_report.pdf` with an editabl
 - Build and test an educational app that loads the complete fitted preprocessing-plus-model pipeline.
 - Prepare the course report, presentation, contribution record, AI-use declaration, and reproducible evidence.
 
-These are planned deliverables, not completed results. See the [Research Operating System](./BREASTWISE_RESEARCH_OPERATING_SYSTEM.md) for scope, data, evaluation, privacy, team, and quality-gate policies, and the [Project Execution Blueprint](./BREASTWISE_PROJECT_EXECUTION_BLUEPRINT.md) for the dated 49-step workflow.
+These are planned deliverables, not completed results. The one-page [topic and problem scope report](./docs/scope_report.pdf) and its [editable source](./docs/scope_report.md) are in this repository. The detailed governance and execution plans are maintained locally and intentionally omitted from this public repository.
 
 ## Dataset policy
 
@@ -55,7 +55,7 @@ The project structure and environment may change after the team confirms the set
 
 ## Team and responsible use
 
-The team has five members. See Section 11 of the Research Operating System for the recorded roster and proposed roles; ownership remains subject to the documented resolution of the role conflict. Log actual contributions with evidence. Confirm the instructor's current AI-use rule and declare any AI assistance accurately.
+The team has five members. Confirm model-level ownership as a team before implementation; the original role proposals assigned some models differently. Log actual contributions with evidence. Confirm the instructor's current AI-use rule and declare any AI assistance accurately.
 
 ## Publication note
 

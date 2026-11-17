@@ -3,7 +3,7 @@
 **Status:** Draft prepared on 17 November 2026; team/instructor approval and course-submission status are not verified. This file is not a submission receipt.\
 **Submission copy:** [Scope report PDF](./scope_report.pdf) and [editable report source](./scope_report.md).\
 **Course:** CSE431 Machine Learning, Fall 2026\
-**Team:** Group 05; five members are listed in Section 11 of the [Research Operating System](../BREASTWISE_RESEARCH_OPERATING_SYSTEM.md).\
+**Team:** Group 05; the five members and IDs are listed in the [editable scope report](./scope_report.md).\
 **Industry domain:** Healthcare / Medical Data Analytics, as stated in the team plan.
 
 ## Project title
@@ -40,7 +40,7 @@ The course guide describes 569 records and 30 numeric predictors. These counts m
 
 ## Team and work ownership
 
-The five Group 05 members are recorded in the Research Operating System. The source documents disagree on ownership of LR/KNN/SVM and MLP; therefore, model-level assignments remain provisional until the team resolves D02 in STEP-002. The primary coordination roles in OS Section 11 are planning proposals, not evidence of completed contribution.
+The five Group 05 members are listed in the scope report. The original role proposals disagree on ownership of LR/KNN/SVM and MLP, so the team must confirm model-level assignments at STEP-002. Assigned ownership is not proof of completed contribution.
 
 ## Milestones
 
