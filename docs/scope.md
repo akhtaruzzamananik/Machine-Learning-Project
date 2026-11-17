@@ -1,10 +1,9 @@
-# CSE431 Topic and Problem Scope — Draft
+# BreastWise Project Scope
 
-**Status:** Draft prepared on 17 November 2026; team/instructor approval and course-submission status are not verified. This file is not a submission receipt.\
-**Submission copy:** [Scope report PDF](./scope_report.pdf) and [editable report source](./scope_report.md).\
 **Course:** CSE431 Machine Learning, Fall 2026\
-**Team:** Group 05; the five members and IDs are listed in the [editable scope report](./scope_report.md).\
-**Industry domain:** Healthcare / Medical Data Analytics, as stated in the team plan.
+**Team:** Group 05\
+**Industry domain:** Healthcare / Medical Data Analytics\
+**Scope milestone:** 17 November 2026
 
 ## Project title
 
@@ -12,53 +11,60 @@
 
 ## Problem statement
 
-The project will compare machine-learning methods for classifying a record from the Wisconsin Diagnostic Breast Cancer (WDBC) tabular dataset as benign or malignant, and will present model outputs with suitable explanatory information. The prediction target is the dataset's recorded label for a benchmark record.
-
-This course prototype does not diagnose a person, screen a population, recommend treatment, or establish clinical usefulness. Model outputs are educational benchmark results, not medical advice or clinical risk estimates.
+BreastWise asks whether machine-learning models can distinguish the benign and malignant labels in the Wisconsin Diagnostic Breast Cancer dataset using its numeric tumour measurements. The project will compare the models required by CSE431, examine their errors and explanations, and present an educational demo. The target is the label recorded for each benchmark row, not a person’s diagnosis.
 
 ## Motivation
 
-The assignment provides a bounded healthcare-data case for practicing data inspection, reproducible preprocessing, model comparison, evaluation, explainability and application integration. The project will report what the supplied benchmark supports and will state its limitations without inferring clinical benefit from benchmark performance.
+This assignment gives the team a focused way to practice data inspection, reproducible preprocessing, model comparison, evaluation, explainability and application development. The report will describe what the benchmark supports and state its limits without claiming clinical benefit.
 
 ## Objectives
 
-1. Verify and document the official dataset source, terms, schema, target labels and data-quality findings.
-2. Perform descriptive EDA and record evidence-backed observations.
-3. Implement the eight course-required estimators across the required algorithm families using a shared evaluation protocol.
-4. Tune at least three estimators with stratified cross-validation on training data only.
-5. Evaluate a frozen selected model with the required classification metrics and explainability evidence.
-6. Build and test an educational application that loads the complete fitted preprocessing-plus-model pipeline.
-7. Prepare the course report, presentation, actual contribution log and AI-use declaration.
+1. Verify the official dataset source, terms, target labels and data quality, then describe the records with exploratory analysis.
+2. Compare Logistic Regression, KNN, SVM, Decision Tree, Random Forest, Extra Trees, Gradient Boosting and MLP Classifier under one evaluation protocol.
+3. Tune at least three models with stratified cross-validation using training data only.
+4. Evaluate a selected model with the required metrics and explain its errors and behavior.
+5. Build an educational application using the complete fitted preprocessing-plus-model pipeline, then prepare the course report and presentation.
 
-## Scope
+## Project scope
 
-**Included:** tabular WDBC records; benign/malignant classification; source verification and EDA; a stratified train/test design; leakage-safe preprocessing; Logistic Regression, KNN, SVM, Decision Tree, Random Forest, Extra Trees, Gradient Boosting and MLP Classifier; training-only tuning of at least three models; accuracy, malignant precision, malignant recall/sensitivity, specificity, F1-score and ROC-AUC; global/local explainability where feasible; a non-clinical educational app; course documentation and presentation.
+The course guide describes the Wisconsin Diagnostic Breast Cancer dataset as 569 records with 30 numeric predictors. The team will verify the actual official download, feature schema, class counts and use terms before analysis.
 
-The course guide describes 569 records and 30 numeric predictors. These counts must be checked against the actual official download before the report states them as observed project data. The dataset itself is excluded from this repository and must not be committed or pushed.
+The project includes benign-versus-malignant classification of tabular records, data checks and exploratory analysis, one stratified train/test split, leakage-safe preprocessing, the eight required models, training-only tuning, explainability and an educational application. The evaluation will report accuracy, malignant precision and recall or sensitivity, specificity, F1-score and ROC-AUC. Malignant is the planned positive class. The split ratio, random seed, cross-validation fold count and threshold policy will be recorded before modeling. The held-out test data will not be used for tuning or model selection.
 
-**Outside scope:** clinical diagnosis, screening or treatment advice; real patient data or identifiers; medical-device deployment; image-based prediction; prospective clinical validation; and claims of generalization to current patient populations. A Q1 journal study is a separate post-course decision and is not promised by this scope.
+The planned source is the [UCI Wisconsin Diagnostic Breast Cancer dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic). The dataset and derived record-level data are excluded from this GitHub repository.
 
-## Team and work ownership
+## Scope limits
 
-The five Group 05 members are listed in the scope report. The original role proposals disagree on ownership of LR/KNN/SVM and MLP, so the team must confirm model-level assignments at STEP-002. Assigned ownership is not proof of completed contribution.
+This is a course benchmark study, not a clinical evaluation. It does not include diagnosis, screening, triage, treatment advice, real patient records, image-based prediction, medical-device deployment or claims that results generalize to current patient populations. The application is for educational demonstration only.
 
-## Milestones
+## Planned evaluation
 
-| Milestone | Official due date | Evidence required |
-|---|---:|---|
-| Topic and problem scope | 17 Nov 2026 | Final title, problem, objectives, scope, team/domain and accessible tracker evidence |
-| Dataset and initial EDA | 21 Nov 2026 | Source record, dataset description, EDA notebook/charts and observations |
-| Preprocessing and features | 25 Nov 2026 | Target/features, split strategy and leakage-safe pipeline |
-| Eight models / five families | 30 Nov 2026 | Baseline results under one protocol |
-| Tuning and explainability | 04 Dec 2026 | Three or more tuning records and explanation evidence |
-| Working application | 08 Dec 2026 | Application using the saved fitted pipeline |
-| Final testing | 10 Dec 2026 | Test report, screenshots, final package and submission evidence |
+Malignant is the planned positive class. The final comparison will report accuracy, malignant precision and recall or sensitivity, specificity, F1-score and ROC-AUC. Before modeling, the team will record the split ratio, random seed, cross-validation folds and threshold policy. The held-out test set will not be used to tune models or choose features. Any score will be described as a benchmark result, not a clinical performance claim.
 
-The exact deadline time and final evidence URL rules are not in the planning documents and must be confirmed with the instructor.
+## Team
 
-## Approval and submission status
+| Student | ID |
+|---|---|
+| Al-Javin Nishu | 232-15-226 |
+| Akhtaruzzaman Anik | 232-15-252 |
+| Alzubair Ahmed | 232-15-591 |
+| Rayan Ahmed | 232-15-847 |
+| Nafis Sadiq | 232-15-895 |
 
-- Team agreement on this draft: **Not recorded**.
-- Instructor confirmation/approval: **Not recorded**.
-- 17 Nov milestone submission status: **Unconfirmed**. No submission receipt or course-tracker link was found in the local workspace or project repository during STEP-001 preparation. The course portal/team tracker has not been independently checked here.
-- Next action: M1 checks with the team and the actual submission channel, then records the receipt/link or the truthful not-submitted/late status in `docs/milestone_evidence.csv` and resolves D01 in `docs/decisions.md`.
+The team will confirm model-level ownership before implementation because the original role proposals assign some models differently.
+
+## Milestone calendar
+
+| Milestone | Due date |
+|---|---:|
+| Topic and problem scope | 17 Nov 2026 |
+| Dataset and initial EDA | 21 Nov 2026 |
+| Preprocessing and features | 25 Nov 2026 |
+| Eight models across five or more families | 30 Nov 2026 |
+| Tuning and explainability | 04 Dec 2026 |
+| Working application | 08 Dec 2026 |
+| Final testing and submission | 10 Dec 2026 |
+
+## Educational use notice
+
+BreastWise is an educational machine-learning prototype built using a public research dataset. It is not a medical device and must not be used to diagnose, screen, or guide treatment. Anyone with a health concern should speak with a qualified healthcare professional.

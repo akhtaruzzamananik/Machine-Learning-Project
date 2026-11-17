@@ -30,9 +30,9 @@ __pycache__/
 *paper*.*
 *manuscript*.*
 
-# Internal planning documents are kept in the local workspace, not GitHub
-/BREASTWISE_RESEARCH_OPERATING_SYSTEM.md
-/BREASTWISE_PROJECT_EXECUTION_BLUEPRINT.md
+# Local PDF export of the scope Markdown; keep the single Markdown scope canonical
+/docs/scope_report.pdf
+/docs/scope_report.md
 
 # OS/editor/temporary files
 .DS_Store

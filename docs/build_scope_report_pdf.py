@@ -11,7 +11,7 @@ from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, Tabl
 
 
 BASE = Path(__file__).resolve().parent
-SOURCE = BASE / "scope_report.md"
+SOURCE = BASE / "scope.md"
 OUTPUT = BASE / "scope_report.pdf"
 
 NAVY = colors.HexColor("#173B57")

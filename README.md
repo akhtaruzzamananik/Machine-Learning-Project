@@ -13,7 +13,7 @@ The prediction target is the benign/malignant label for a dataset record. This p
 
 ## Current status
 
-The STEP-001 scope report is prepared in `docs/scope_report.pdf` with an editable Markdown source. Its course submission and approval status remain unconfirmed. No model-training results, fitted model, or working application are claimed as complete. Record actual progress and evidence as each step is completed.
+The single canonical STEP-001 scope document is `docs/scope.md`. Its course submission and approval status remain unconfirmed. No model-training results, fitted model, or working application are claimed as complete. Record actual progress and evidence as each step is completed.
 
 ## Planned course work
 
@@ -27,7 +27,7 @@ The STEP-001 scope report is prepared in `docs/scope_report.pdf` with an editabl
 - Build and test an educational app that loads the complete fitted preprocessing-plus-model pipeline.
 - Prepare the course report, presentation, contribution record, AI-use declaration, and reproducible evidence.
 
-These are planned deliverables, not completed results. The one-page [topic and problem scope report](./docs/scope_report.pdf) and its [editable source](./docs/scope_report.md) are in this repository. The detailed governance and execution plans are maintained locally and intentionally omitted from this public repository.
+These are planned deliverables, not completed results. The single [topic and problem scope document](./docs/scope.md) is in this repository. The [Research Operating System](./BREASTWISE_RESEARCH_OPERATING_SYSTEM.md) and [Project Execution Blueprint](./BREASTWISE_PROJECT_EXECUTION_BLUEPRINT.md) define the governance rules and dated execution steps.
 
 ## Dataset policy
 
